@@ -1,0 +1,180 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Title */
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  padding: 4% 7%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.25rem;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* Header */
+
+.app-img {
+  margin-left: 5rem;
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+}
+
+.container-fluid {
+  padding: 0 2%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+header {
+  padding-top: 4.5rem;
+  padding-bottom: 2.5rem;
+}
+
+/* Features */
+
+#features {
+  padding: 7% 7%;
+  text-align: center;
+  background-color: white;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+#features i {
+  margin: 1rem;
+  color: #ef8172;
+}
+
+#features i:hover {
+  color: #ff4c68;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+
+.carousel-item {
+  padding: 4% 7%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 4% 7%;
+}
+
+.press-img {
+  width: 20%;
+  margin: 2% 2% 4%;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+
+.testimonials-text {
+  line-height: 1.5;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 90%;
+  margin: 2%;
+}
+
+/* Pricing */
+
+h2 {
+  font-size: 2.25rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+#pricing {
+  padding: 4% 7%;
+  text-align: center;
+  background-color: white;
+}
+
+.pricing-col {
+  padding: 3%;
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 4% 7%;
+  text-align: center;
+}
+
+.cta-header {
+  color: white;
+  font-size: 2.5rem;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #fff;
+  padding: 4% 7%;
+  text-align: center;
+}
+
+.contact {
+  margin: 1rem;
+}
+
+/* Media Querry */
+
+@media (max-width: 992px) {
+  .app-img {
+    margin-left: 0;
+    transform: rotate(0deg);
+    position: relative;
+  }
+  body {
+    text-align: center;
+  }
+}

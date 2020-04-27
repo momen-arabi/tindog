@@ -170,6 +170,7 @@ h2 {
 
 @media (max-width: 992px) {
   .app-img {
+    margin-left: 0;
     transform: rotate(0deg);
     position: relative;
   }
